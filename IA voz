@@ -1,0 +1,47 @@
+import os
+import tkinter as tk
+from gtts import gTTS
+from tkinter import messagebox
+from collections import Counter
+import matplotlib.pyplot as plt
+
+def converter_texto():
+    texto = entrada.get("1.0", tk.END).strip()
+    if texto:
+        # Converter para áudio
+        tts = gTTS(text=texto, lang='pt')
+        tts.save("saida.mp3")
+        os.system("start saida.mp3")  # No Windows
+        os.system("mpg321 saida.mp3")  # No Linux
+        messagebox.showinfo("Sucesso", "Áudio gerado e reproduzido!")
+        
+        # Gerar gráfico de frequência de letras
+        gerar_grafico_letras(texto)
+    else:
+        messagebox.showwarning("Aviso", "Digite algum texto antes de converter.")
+
+def gerar_grafico_letras(texto):
+    # Contar apenas letras (ignorando espaços e pontuação)
+    letras = [c.lower() for c in texto if c.isalpha()]
+    contagem = Counter(letras)
+
+    # Criar gráfico de barras
+    plt.figure(figsize=(10, 6))
+    plt.bar(contagem.keys(), contagem.values(), color='lightgreen')
+    plt.title("Frequência de Letras")
+    plt.xlabel("Letras")
+    plt.ylabel("Quantidade")
+    plt.tight_layout()
+    plt.show()
+
+# Interface gráfica
+janela = tk.Tk()
+janela.title("Texto para Áudio")
+
+entrada = tk.Text(janela, height=20, width=100)
+entrada.pack(pady=10)
+
+botao = tk.Button(janela, text="Converter para Áudio", command=converter_texto)
+botao.pack(pady=5)
+
+janela.mainloop()
