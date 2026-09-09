@@ -36,9 +36,13 @@ O usuário utilizará o aplicativo para ajudá-lo no ensinamento de alunos com d
 
 **Gerar áudio de um texto**
 
- [Fluxograma de caso de uso de como gerar áudio de um texto](https://canva.link/08m7vdttk3sy4ki)
+ [Fluxograma de caso de uso de como gerar áudio de um texto](https://canva.link/08m7vdttk3sy4ki) 
+
+ **Baixar áudio** 
+
+ [Fluxograma de caso de uso de como baixar áudio](https://canva.link/r152ddgzm18h6tm)
  
 **Visualizar o gráfico de barras**
 
-[Gráfico de letras para checagem de erros textuais](https://canva.link/e6dbvaaxb1sqdzq)
+[Fluxograma de Gráfico de letras para checagem de erros textuais](https://canva.link/e6dbvaaxb1sqdzq)
 
