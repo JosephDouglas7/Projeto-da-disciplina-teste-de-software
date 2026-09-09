@@ -34,6 +34,9 @@ O usuário utilizará o aplicativo para ajudá-lo no ensinamento de alunos com d
 
 **Requisitos funcionais** 
 
-**Gerar áudio de um texto** 
+**Gerar áudio de um texto**  
 
+**Visualizar o gráfico de barras**
+
+[Gráfico de letras para checagem de erros textuais](https://canva.link/e6dbvaaxb1sqdzq)
 
