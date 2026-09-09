@@ -44,5 +44,5 @@ O usuário utilizará o aplicativo para ajudá-lo no ensinamento de alunos com d
  
 **Visualizar o gráfico de barras**
 
-[Fluxograma de Gráfico de letras para checagem de erros textuais](https://canva.link/e6dbvaaxb1sqdzq)
+[Fluxograma de Gráfico de letras para checagem de erros textuais](https://canva.link/c72rx0fdj3zus9s)
 
