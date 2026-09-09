@@ -44,5 +44,32 @@ O usuário utilizará o aplicativo para ajudá-lo no ensinamento de alunos com d
  
 **Visualizar o gráfico de barras**
 
-[Fluxograma de Gráfico de letras para checagem de erros textuais](https://canva.link/c72rx0fdj3zus9s)
+[Fluxograma de Gráfico de letras para checagem de erros textuais](https://canva.link/c72rx0fdj3zus9s) 
 
+**Requisitos não-funcionais** 
+
+- RNF01 - Deve ter rápido acesso ao aplicativo
+
+- RNF02 - Deve ter um gráfico de barras para checar as letras do texto que será gerado o áudio
+
+- RNF03 – Deve ter confiabilidade alta
+
+- RNF04 -  Deve ter usabilidade alta
+
+- RNF05 -  Deve ter portabilidade para sistemas operacionais linux e windows
+
+- RNF06 -  Deve ter um desempenho alto  
+
+
+| Data  | Risco                                          | Prioridade | Responsável | Status  | Providência/solução                   | 
+|-------|------------------------------------------------|------------|-------------|---------|---------------------------------------| 
+|11/08  |Fazer a base do aplicativo                      | Alta       |Programador  |Resolvido|Decisão da estrutura do codigo fonte   | 
+|11/08  |Ausência de gráfico de barras para relatar erros| Média      |Programador  |Resolvido|Adição da implementação                | 
+|18/08  |Ausência de opções de escolher o idioma         | Alta       |Programador  |Resolvido|Adição da implementação a base já feita| 
+|18/08  |Ausência de opção de baixar o áudio gerado      | Média      |Programador  |Resolvido|Adição da implementação a base já feita| 
+
+**Referências** 
+
+[Copilot_microsoft](https://copilot.microsoft.com/) 
+
+[Capítulo 8 do livro Engenharia de software moderna](https://engsoftmoderna.info/cap8.html)
