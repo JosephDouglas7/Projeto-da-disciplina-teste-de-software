@@ -34,8 +34,10 @@ O usuário utilizará o aplicativo para ajudá-lo no ensinamento de alunos com d
 
 **Requisitos funcionais** 
 
-**Gerar áudio de um texto**  
+**Gerar áudio de um texto**
 
+ [Fluxograma de caso de uso de como gerar áudio de um texto](https://canva.link/08m7vdttk3sy4ki)
+ 
 **Visualizar o gráfico de barras**
 
 [Gráfico de letras para checagem de erros textuais](https://canva.link/e6dbvaaxb1sqdzq)
