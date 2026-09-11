@@ -297,3 +297,129 @@ Também é possível apresentar aqui o programa que será testado.
 </table>
 <br/> 
 
+## 3.5 Teste de integração 
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            descreva aqui o objetivo
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            () manual
+        </th>
+        <th colspan="2">
+            () automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ()
+        </th>
+        <th>
+            Sistema ()
+        </th>
+        <th>
+            Unidade ()
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ()
+        </th>
+        <th colspan="2">
+            Caixa preta ()
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Programador(es) ou equipe de testes
+        </th>
+    </tr>
+</table>
+<br/>  
+
+## 3.6 Teste de Sistema / End-to-End  
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            descreva aqui o objetivo
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            () manual
+        </th>
+        <th colspan="2">
+            () automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ()
+        </th>
+        <th>
+            Sistema ()
+        </th>
+        <th>
+            Unidade ()
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ()
+        </th>
+        <th colspan="2">
+            Caixa preta ()
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Programador(es) ou equipe de testes
+        </th>
+    </tr>
+</table>
+<br/>  
+
+
+
