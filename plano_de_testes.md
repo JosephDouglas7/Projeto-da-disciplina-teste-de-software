@@ -69,7 +69,7 @@ Também é possível apresentar aqui o programa que será testado.
             () manual
         </th>
         <th colspan="2">
-            () automática
+            (X) automática
         </th>
     </tr>
     <tr>
@@ -77,10 +77,10 @@ Também é possível apresentar aqui o programa que será testado.
             Estágio do teste
         </th>
         <th>
-            Integração ( )
+            Integração (X)
         </th>
         <th>
-            Sistema ( )
+            Sistema (X)
         </th>
         <th>
             Unidade ()
@@ -97,7 +97,7 @@ Também é possível apresentar aqui o programa que será testado.
             Caixa branca ()
         </th>
         <th colspan="2">
-            Caixa preta ()
+            Caixa preta (X)
         </th>
     </tr>
     <tr>
