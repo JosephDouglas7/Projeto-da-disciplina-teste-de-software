@@ -58,7 +58,7 @@ Também é possível apresentar aqui o programa que será testado.
             Objetivo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            saber se as funcionalidades do aplicativo estão funcionando
         </th>
     </tr>
     <tr>
@@ -174,6 +174,68 @@ Também é possível apresentar aqui o programa que será testado.
 <br/> 
 
 ## 3.3 - Teste de interface de usuário 
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            Saber se a interface está boa para o usuário final
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            () manual
+        </th>
+        <th colspan="2">
+            (X) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração (X)
+        </th>
+        <th>
+            Sistema (X)
+        </th>
+        <th>
+            Unidade ()
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ()
+        </th>
+        <th colspan="2">
+            Caixa preta (X)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Programador(es) ou equipe de testes
+        </th>
+    </tr>
+</table>
+<br/>  
+
+## 3.4 Teste unitário 
 
 <br/>
 <table>
