@@ -86,7 +86,7 @@ Também é possível apresentar aqui o programa que será testado.
             Unidade ()
         </th>
         <th>
-            Aceitação ( )
+            Aceitação (X)
         </th>
     </tr>
     <tr>
@@ -148,7 +148,7 @@ Também é possível apresentar aqui o programa que será testado.
             Unidade ()
         </th>
         <th>
-            Aceitação ( )
+            Aceitação (X)
         </th>
     </tr>
     <tr>
@@ -210,7 +210,7 @@ Também é possível apresentar aqui o programa que será testado.
             Unidade ()
         </th>
         <th>
-            Aceitação ( )
+            Aceitação (X)
         </th>
     </tr>
     <tr>
@@ -427,10 +427,10 @@ Também é possível apresentar aqui o programa que será testado.
 <table>
     <tr>
         <th>
-            Objetivo
+           Requisitos que o aplicativo deve cumprir
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Requisitos que o aplicativo deve cumprir com êxito  
         </th>
     </tr>
     <tr>
@@ -441,7 +441,7 @@ Também é possível apresentar aqui o programa que será testado.
             () manual
         </th>
         <th colspan="2">
-            () automática
+            (X) automática
         </th>
     </tr>
     <tr>
@@ -449,16 +449,16 @@ Também é possível apresentar aqui o programa que será testado.
             Estágio do teste
         </th>
         <th>
-            Integração ( )
+            Integração (X)
         </th>
         <th>
-            Sistema ( )
+            Sistema (X)
         </th>
         <th>
             Unidade ()
         </th>
         <th>
-            Aceitação ( )
+            Aceitação (X)
         </th>
     </tr>
     <tr>
@@ -469,7 +469,7 @@ Também é possível apresentar aqui o programa que será testado.
             Caixa branca ()
         </th>
         <th colspan="2">
-            Caixa preta ()
+            Caixa preta (X)
         </th>
     </tr>
     <tr>
@@ -489,10 +489,10 @@ Também é possível apresentar aqui o programa que será testado.
 <table>
     <tr>
         <th>
-            Objetivo
+            Velocidade de resposta do aplicativo
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Tempo de resposta do aplicativo 
         </th>
     </tr>
     <tr>
@@ -503,7 +503,7 @@ Também é possível apresentar aqui o programa que será testado.
             () manual
         </th>
         <th colspan="2">
-            () automática
+            (X) automática
         </th>
     </tr>
     <tr>
@@ -511,16 +511,16 @@ Também é possível apresentar aqui o programa que será testado.
             Estágio do teste
         </th>
         <th>
-            Integração ( )
+            Integração (X)
         </th>
         <th>
-            Sistema ( )
+            Sistema (X)
         </th>
         <th>
             Unidade ()
         </th>
         <th>
-            Aceitação ( )
+            Aceitação (X)
         </th>
     </tr>
     <tr>
@@ -531,7 +531,7 @@ Também é possível apresentar aqui o programa que será testado.
             Caixa branca ()
         </th>
         <th colspan="2">
-            Caixa preta ()
+            Caixa preta (X)
         </th>
     </tr>
     <tr>
@@ -551,10 +551,10 @@ Também é possível apresentar aqui o programa que será testado.
 <table>
     <tr>
         <th>
-            Objetivo
+            Compatibilidade em sistemas operacionais windows e linux 
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Compatibilidade do aplicativo em sistemas operacionais windows e linux 
         </th>
     </tr>
     <tr>
@@ -565,7 +565,7 @@ Também é possível apresentar aqui o programa que será testado.
             () manual
         </th>
         <th colspan="2">
-            () automática
+            (X) automática
         </th>
     </tr>
     <tr>
@@ -573,16 +573,16 @@ Também é possível apresentar aqui o programa que será testado.
             Estágio do teste
         </th>
         <th>
-            Integração ( )
+            Integração (X)
         </th>
         <th>
-            Sistema ( )
+            Sistema (X)
         </th>
         <th>
             Unidade ()
         </th>
         <th>
-            Aceitação ( )
+            Aceitação (X)
         </th>
     </tr>
     <tr>
@@ -590,10 +590,10 @@ Também é possível apresentar aqui o programa que será testado.
             Abordagem do teste
         </th>
         <th colspan="2">
-            Caixa branca ()
+            Caixa branca (X)
         </th>
         <th colspan="2">
-            Caixa preta ()
+            Caixa preta (X)
         </th>
     </tr>
     <tr>
@@ -607,5 +607,31 @@ Também é possível apresentar aqui o programa que será testado.
 </table>
 <br/> 
 
+
+## 4 - Recursos 
+
+Os testes foram realizados utilizando o ambiente de desenvolvimento Visual Studio, em conjunto com a linguagem Python e a biblioteca Selenium. 
+
+### 4.1 - Ambiente de teste - software 
+
+Os testes foram realizados utilizando o ambiente de desenvolvimento Visual Studio, em conjunto com a linguagem Python e a biblioteca Selenium, que possibilitou a automação e validação das funcionalidades do aplicativo
+
+### 4.2 - Ferramenta de teste 
+
+As ferramentas utilizadas para os testes do aplicativo foram o ambiente de desenvolvimento Visual Studio e a linguagem Python, em conjunto com a biblioteca Selenium. O Visual Studio oferece suporte a diversas linguagens de programação, mas neste projeto foi escolhida a linguagem Python. Já o Selenium, um conjunto de ferramentas de automação de navegadores, possibilitou simular a interação de um usuário real com páginas web, sendo amplamente empregado em testes de software. Com ele, foi possível abrir sites, preencher formulários, clicar em botões e validar resultados em diferentes navegadores e sistemas operacionais.
+
+## 5- Cronograma 
+
+Tipo de teste                 | Duração | data de início | data de término
+------------------------------|---------|----------------|-----------------
+Teste de funcionalidade       | 10 min. | 01/09/2026     | 01/09/2026     | dd/mm/aaaa
+Teste de performace           | 20 min. | 01/09/2026     | 01/09/2026
+Teste de interface de usuário | 10 min. | 01/09/2026     | 01/09/2026
+Teste unitário                | 10 min. | 12/09/2026     | 12/09/2026
+Teste de integração           | 10 min. | 12/09/2026     | 12/09/2026 
+Teste de Sistema / End-to-End | 10 min. | 12/09/2026     | 12/09/2026
+Teste de Aceitação            | 10 min. | 12/09/2026     | 12/09/2026
+Teste de usabilidade          | 10 min. | 12/09/2026     | 12/09/2026  
+Teste de compatibilidade      | 10 min. | 12/09/2026     | 12/09/2026 
 
 
