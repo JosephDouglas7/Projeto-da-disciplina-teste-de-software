@@ -303,10 +303,10 @@ Também é possível apresentar aqui o programa que será testado.
 <table>
     <tr>
         <th>
-            Objetivo
+            saber se as funções funcionam juntas 
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            Saber se as funcionalidades funcionam juntas
         </th>
     </tr>
     <tr>
@@ -317,7 +317,7 @@ Também é possível apresentar aqui o programa que será testado.
             () manual
         </th>
         <th colspan="2">
-            () automática
+            (X) automática
         </th>
     </tr>
     <tr>
@@ -325,7 +325,7 @@ Também é possível apresentar aqui o programa que será testado.
             Estágio do teste
         </th>
         <th>
-            Integração ()
+            Integração (X)
         </th>
         <th>
             Sistema ()
@@ -342,7 +342,7 @@ Também é possível apresentar aqui o programa que será testado.
             Abordagem do teste
         </th>
         <th colspan="2">
-            Caixa branca ()
+            Caixa branca (X)
         </th>
         <th colspan="2">
             Caixa preta ()
@@ -365,10 +365,10 @@ Também é possível apresentar aqui o programa que será testado.
 <table>
     <tr>
         <th>
-            Objetivo
+            testar o funcionamento 
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+            testar o funcionamento do aplicativo
         </th>
     </tr>
     <tr>
@@ -379,7 +379,7 @@ Também é possível apresentar aqui o programa que será testado.
             () manual
         </th>
         <th colspan="2">
-            () automática
+            (X) automática
         </th>
     </tr>
     <tr>
@@ -390,7 +390,7 @@ Também é possível apresentar aqui o programa que será testado.
             Integração ()
         </th>
         <th>
-            Sistema ()
+            Sistema (X)
         </th>
         <th>
             Unidade ()
@@ -404,10 +404,10 @@ Também é possível apresentar aqui o programa que será testado.
             Abordagem do teste
         </th>
         <th colspan="2">
-            Caixa branca ()
+            Caixa branca (X)
         </th>
         <th colspan="2">
-            Caixa preta ()
+            Caixa preta (X)
         </th>
     </tr>
     <tr>
