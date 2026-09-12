@@ -55,7 +55,7 @@ Também é possível apresentar aqui o programa que será testado.
 <table>
     <tr>
         <th>
-            Objetivo
+            Saber se as funcionalidades funcionam
         </th>
         <th colspan="4">
             saber se as funcionalidades do aplicativo estão funcionando
@@ -111,16 +111,16 @@ Também é possível apresentar aqui o programa que será testado.
 </table>
 <br/> 
 
-## 3.2- Teste de performace  
+## 3.2 - Teste de performace  
 
 <br/>
 <table>
     <tr>
         <th>
-            Objetivo
+            Ver a rapidez de resposta
         </th>
         <th colspan="4">
-            descreva aqui o objetivo
+           Ver o tempo de resposta da geração de áudio e geração de gráfico
         </th>
     </tr>
     <tr>
@@ -131,7 +131,7 @@ Também é possível apresentar aqui o programa que será testado.
             () manual
         </th>
         <th colspan="2">
-            () automática
+            (X) automática
         </th>
     </tr>
     <tr>
@@ -139,10 +139,10 @@ Também é possível apresentar aqui o programa que será testado.
             Estágio do teste
         </th>
         <th>
-            Integração ()
+            Integração (X)
         </th>
         <th>
-            Sistema ()
+            Sistema (X)
         </th>
         <th>
             Unidade ()
@@ -156,7 +156,7 @@ Também é possível apresentar aqui o programa que será testado.
             Abordagem do teste
         </th>
         <th colspan="2">
-            Caixa branca ()
+            Caixa branca (X)
         </th>
         <th colspan="2">
             Caixa preta ()
@@ -179,7 +179,7 @@ Também é possível apresentar aqui o programa que será testado.
 <table>
     <tr>
         <th>
-            Objetivo
+            Saber se a interface está ótima para o cliente
         </th>
         <th colspan="4">
             Saber se a interface está boa para o usuário final
@@ -235,7 +235,69 @@ Também é possível apresentar aqui o programa que será testado.
 </table>
 <br/>  
 
-## 3.4 Teste unitário 
+## 3.4 - Teste unitário 
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Funcionalidade das funções separadas
+        </th>
+        <th colspan="4">
+            Ver se todas as funcionalidades do app funcionam separadas
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            () manual
+        </th>
+        <th colspan="2">
+            (X) automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ()
+        </th>
+        <th>
+            Sistema ()
+        </th>
+        <th>
+            Unidade (X)
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca (X)
+        </th>
+        <th colspan="2">
+            Caixa preta ()
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Programador(es) ou equipe de testes
+        </th>
+    </tr>
+</table>
+<br/> 
+
+## 3.5 - Teste de integração 
 
 <br/>
 <table>
@@ -267,6 +329,192 @@ Também é possível apresentar aqui o programa que será testado.
         </th>
         <th>
             Sistema ()
+        </th>
+        <th>
+            Unidade ()
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ()
+        </th>
+        <th colspan="2">
+            Caixa preta ()
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Programador(es) ou equipe de testes
+        </th>
+    </tr>
+</table>
+<br/>  
+
+## 3.6 - Teste de Sistema / End-to-End  
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            descreva aqui o objetivo
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            () manual
+        </th>
+        <th colspan="2">
+            () automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ()
+        </th>
+        <th>
+            Sistema ()
+        </th>
+        <th>
+            Unidade ()
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ()
+        </th>
+        <th colspan="2">
+            Caixa preta ()
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Programador(es) ou equipe de testes
+        </th>
+    </tr>
+</table>
+<br/>   
+
+## 3.7 - Teste de Aceitação 
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            descreva aqui o objetivo
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            () manual
+        </th>
+        <th colspan="2">
+            () automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema ( )
+        </th>
+        <th>
+            Unidade ()
+        </th>
+        <th>
+            Aceitação ( )
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Abordagem do teste
+        </th>
+        <th colspan="2">
+            Caixa branca ()
+        </th>
+        <th colspan="2">
+            Caixa preta ()
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Responsável(is)
+        </th>
+        <th colspan="4">
+            Programador(es) ou equipe de testes
+        </th>
+    </tr>
+</table>
+<br/>
+
+## 3.8 - Teste de usabilidade 
+
+<br/>
+<table>
+    <tr>
+        <th>
+            Objetivo
+        </th>
+        <th colspan="4">
+            descreva aqui o objetivo
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Técnica:
+        </th>
+        <th colspan="2">
+            () manual
+        </th>
+        <th colspan="2">
+            () automática
+        </th>
+    </tr>
+    <tr>
+        <th>
+            Estágio do teste
+        </th>
+        <th>
+            Integração ( )
+        </th>
+        <th>
+            Sistema ( )
         </th>
         <th>
             Unidade ()
@@ -297,7 +545,7 @@ Também é possível apresentar aqui o programa que será testado.
 </table>
 <br/> 
 
-## 3.5 Teste de integração 
+## 3.9 - Teste de compatibilidade 
 
 <br/>
 <table>
@@ -325,10 +573,10 @@ Também é possível apresentar aqui o programa que será testado.
             Estágio do teste
         </th>
         <th>
-            Integração ()
+            Integração ( )
         </th>
         <th>
-            Sistema ()
+            Sistema ( )
         </th>
         <th>
             Unidade ()
@@ -357,69 +605,7 @@ Também é possível apresentar aqui o programa que será testado.
         </th>
     </tr>
 </table>
-<br/>  
-
-## 3.6 Teste de Sistema / End-to-End  
-
-<br/>
-<table>
-    <tr>
-        <th>
-            Objetivo
-        </th>
-        <th colspan="4">
-            descreva aqui o objetivo
-        </th>
-    </tr>
-    <tr>
-        <th>
-            Técnica:
-        </th>
-        <th colspan="2">
-            () manual
-        </th>
-        <th colspan="2">
-            () automática
-        </th>
-    </tr>
-    <tr>
-        <th>
-            Estágio do teste
-        </th>
-        <th>
-            Integração ()
-        </th>
-        <th>
-            Sistema ()
-        </th>
-        <th>
-            Unidade ()
-        </th>
-        <th>
-            Aceitação ( )
-        </th>
-    </tr>
-    <tr>
-        <th>
-            Abordagem do teste
-        </th>
-        <th colspan="2">
-            Caixa branca ()
-        </th>
-        <th colspan="2">
-            Caixa preta ()
-        </th>
-    </tr>
-    <tr>
-        <th>
-            Responsável(is)
-        </th>
-        <th colspan="4">
-            Programador(es) ou equipe de testes
-        </th>
-    </tr>
-</table>
-<br/>  
+<br/> 
 
 
 
