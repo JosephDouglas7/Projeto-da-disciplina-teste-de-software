@@ -624,9 +624,9 @@ As ferramentas utilizadas para os testes do aplicativo foram o ambiente de desen
 
 Tipo de teste                 | Duração | data de início | data de término
 ------------------------------|---------|----------------|-----------------
-Teste de funcionalidade       | 10 min. | 01/09/2026     | 01/09/2026     | dd/mm/aaaa
-Teste de performace           | 20 min. | 01/09/2026     | 01/09/2026
-Teste de interface de usuário | 10 min. | 01/09/2026     | 01/09/2026
+Teste de funcionalidade       | 10 min. | 10/09/2026     | 10/09/2026     
+Teste de performace           | 20 min. | 10/09/2026     | 10/09/2026
+Teste de interface de usuário | 10 min. | 10/09/2026     | 10/09/2026
 Teste unitário                | 10 min. | 12/09/2026     | 12/09/2026
 Teste de integração           | 10 min. | 12/09/2026     | 12/09/2026 
 Teste de Sistema / End-to-End | 10 min. | 12/09/2026     | 12/09/2026
