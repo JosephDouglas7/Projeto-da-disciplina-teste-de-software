@@ -283,7 +283,7 @@ Também é possível apresentar aqui o programa que será testado.
             Caixa branca (X)
         </th>
         <th colspan="2">
-            Caixa preta ()
+            Caixa preta (X)
         </th>
     </tr>
     <tr>
