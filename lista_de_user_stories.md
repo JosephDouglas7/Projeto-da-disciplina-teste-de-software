@@ -454,7 +454,15 @@ Esse documento é um user_story ou dos requisitos do aplicativo IAV(IAVOZ) um ap
 
 # Teste de unidade  x  Teste de integração 
 
-A diferença entre teste de unidade e teste de integração está no nível de escopo e no objetivo de cada tipo de validação dentro do ciclo de desenvolvimento de software. O teste de unidade verifica o funcionamento de uma parte isolada do código, geralmente uma função ou método, com o objetivo de garantir que cada componente individual funcione corretamente de forma independente. Esses testes são rápidos e fáceis de executar, utilizam mocks ou stubs para simular dependências externas e se concentram na lógica interna, sem interação com banco de dados ou APIs reais. Já o teste de integração verifica se diferentes módulos ou sistemas funcionam corretamente quando combinados, garantindo que a comunicação entre componentes — como aplicação, banco de dados e APIs — ocorra sem falhas. Eles são mais complexos e demorados que os testes de unidade, utilizam recursos reais ou ambientes simulados próximos da produção e validam fluxos completos e interações entre diferentes partes do sistema.
+A diferença entre teste de unidade e teste de integração está no nível de escopo e no objetivo de cada tipo de validação dentro do ciclo de desenvolvimento de software. O teste de unidade verifica o funcionamento de uma parte isolada do código, geralmente uma função ou método, com o objetivo de garantir que cada componente individual funcione corretamente de forma independente. Esses testes são rápidos e fáceis de executar, utilizam mocks ou stubs para simular dependências externas e se concentram na lógica interna, sem interação com banco de dados ou APIs reais. Já o teste de integração verifica se diferentes módulos ou sistemas funcionam corretamente quando combinados, garantindo que a comunicação entre componentes — como aplicação, banco de dados e APIs — ocorra sem falhas. Eles são mais complexos e demorados que os testes de unidade, utilizam recursos reais ou ambientes simulados próximos da produção e validam fluxos completos e interações entre diferentes partes do sistema. 
+
+# SELENIUM 
+
+Tempo para gerar áudio: 1.30 segundos
+
+Tempo para gerar gráfico: 0.42 segundos
+
+Tempo de resposta da página: 1.50 segundos
 
 
 # Referências 
