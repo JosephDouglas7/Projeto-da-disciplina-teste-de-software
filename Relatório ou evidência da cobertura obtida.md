@@ -1,32 +1,3 @@
 # Relatório/evidência da cobertura obtida 
 
-
-**Security** 
-
-0 Open issues 
-
-Classificação: A 
-
-
-**Reliability** 
-
-0 Open issues 
-
-Classificação:A
-
-
-**Maintainability**
-
-0 Open issues 
-
-Classificação: A 
-
-**Accepted Issues** 
-
-0 
-
-**Duplications** 
-
-No conditions set
-
-
+[![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=JosephDouglas7_Projeto-da-disciplina-teste-de-software&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=JosephDouglas7_Projeto-da-disciplina-teste-de-software)
