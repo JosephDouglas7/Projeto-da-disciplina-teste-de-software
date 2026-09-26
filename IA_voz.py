@@ -3,30 +3,67 @@ import tkinter as tk
 from gtts import gTTS
 from tkinter import messagebox, filedialog
 from collections import Counter
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
+from langdetect import detect, DetectorFactory
+
+# Garante resultados consistentes na detecção do idioma
+DetectorFactory.seed = 0
+
+
+def validar_idioma_texto(texto, idioma_selecionado):
+    """
+    Verifica se o idioma detectado no texto corresponde ao idioma selecionado no menu.
+    Retorna (True, "") se for válido, ou (False, mensagem_erro) se for inválido.
+    """
+    try:
+        idioma_detectado = detect(texto)
+
+        # Bloqueia texto em português com idioma selecionado em inglês
+        if idioma_selecionado == "en" and idioma_detectado == "pt":
+            return False, "O texto digitado está em Português, mas a opção selecionada é Inglês.\nAjuste o idioma ou altere o texto."
+
+        # Bloqueia texto em inglês com idioma selecionado em português
+        if idioma_selecionado == "pt" and idioma_detectado == "en":
+            return False, "O texto digitado está em Inglês, mas a opção selecionada é Português.\nAjuste o idioma ou altere o texto."
+
+    except Exception:
+        # Caso o texto seja muito curto, numérico ou com símbolos onde não dá para detectar o idioma
+        pass
+
+    return True, ""
+
 
 def converter_texto():
     global ultimo_arquivo
     texto = entrada.get("1.0", tk.END).strip()
     idioma = idioma_var.get()
-    if texto:
-        # Converter para áudio no idioma selecionado
-        tts = gTTS(text=texto, lang=idioma)
-        ultimo_arquivo = "saida.mp3"
-        tts.save(ultimo_arquivo)
-        
-        # Reproduzir dependendo do sistema operacional
-        if os.name == "nt":  # Windows
-            os.system(f"start {ultimo_arquivo}")
-        else:  # Linux/Mac
-            os.system(f"mpg321 {ultimo_arquivo}")
-        
-        messagebox.showinfo("Sucesso", "Áudio gerado e reproduzido!")
-        
-        # Gerar gráfico de frequência de letras
-        gerar_grafico_letras(texto)
-    else:
+
+    if not texto:
         messagebox.showwarning("Aviso", "Digite algum texto antes de converter.")
+        return
+
+    # Validação do idioma do texto x idioma selecionado
+    valido, mensagem_erro = validar_idioma_texto(texto, idioma)
+    if not valido:
+        messagebox.showerror("Idioma Incompatível", mensagem_erro)
+        return
+
+    # Converter para áudio no idioma selecionado
+    tts = gTTS(text=texto, lang=idioma)
+    ultimo_arquivo = "saida.mp3"
+    tts.save(ultimo_arquivo)
+    
+    # Reproduzir dependendo do sistema operacional
+    if os.name == "nt":  # Windows
+        os.system(f"start {ultimo_arquivo}")
+    else:  # Linux/Mac
+        os.system(f"mpg321 {ultimo_arquivo}")
+    
+    messagebox.showinfo("Sucesso", "Áudio gerado e reproduzido!")
+    
+    # Gerar gráfico de frequência de letras
+    gerar_grafico_letras(texto)
+
 
 def salvar_audio():
     if ultimo_arquivo:
@@ -44,6 +81,7 @@ def salvar_audio():
     else:
         messagebox.showwarning("Aviso", "Nenhum áudio foi gerado ainda.")
 
+
 def gerar_grafico_letras(texto):
     # Contar apenas letras (ignorando espaços e pontuação)
     letras = [c.lower() for c in texto if c.isalpha()]
@@ -57,6 +95,7 @@ def gerar_grafico_letras(texto):
     plt.ylabel("Quantidade")
     plt.tight_layout()
     plt.show()
+
 
 # Interface gráfica
 janela = tk.Tk()
@@ -79,4 +118,3 @@ botao_salvar.pack(pady=5)
 ultimo_arquivo = None
 
 janela.mainloop()
-
