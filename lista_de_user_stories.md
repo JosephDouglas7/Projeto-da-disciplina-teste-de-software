@@ -15,7 +15,9 @@ Esse documento é um user_story ou dos requisitos do aplicativo IAV(IAVOZ) um ap
 </head>
 <body>
   <table>
-    <caption>Teste de funcionalidade</caption>
+    <caption> 
+     <b>Teste de funcionalidade</b>
+    </caption>
     <tr>
       <th>Descrição</th>
       <td>saber se as funcionalidades do aplicativo estão funcionando</td>
@@ -64,7 +66,7 @@ Esse documento é um user_story ou dos requisitos do aplicativo IAV(IAVOZ) um ap
 </head>
 <body>
   <table>
-    <caption>Teste de performace</caption>
+    <caption><b>Teste de performace</b></caption>
     <tr>
       <th>Descrição</th>
       <td>Ver o tempo de resposta da geração de áudio e geração de gráfico</td>
@@ -113,7 +115,7 @@ Esse documento é um user_story ou dos requisitos do aplicativo IAV(IAVOZ) um ap
 </head>
 <body>
   <table>
-    <caption>Teste de interface de usuário</caption>
+    <caption><b>Teste de interface de usuário</b></caption>
     <tr>
       <th>Descrição</th>
       <td>Saber se a interface está boa para o usuário final</td>
@@ -162,7 +164,7 @@ Esse documento é um user_story ou dos requisitos do aplicativo IAV(IAVOZ) um ap
 </head>
 <body>
   <table>
-    <caption>Teste unitário</caption>
+    <caption><b>Teste unitário</b></caption>
     <tr>
       <th>Descrição</th>
       <td>Ver se todas as funcionalidades do app funcionam separadas</td>
@@ -211,7 +213,7 @@ Esse documento é um user_story ou dos requisitos do aplicativo IAV(IAVOZ) um ap
 </head>
 <body>
   <table>
-    <caption>Teste de integração</caption>
+    <caption><b>Teste de integração</b></caption>
     <tr>
       <th>Descrição</th>
       <td>Saber se as funcionalidades funcionam juntas</td>
@@ -260,7 +262,7 @@ Esse documento é um user_story ou dos requisitos do aplicativo IAV(IAVOZ) um ap
 </head>
 <body>
   <table>
-    <caption>Teste de Sistema / End-to-End</caption>
+    <caption><b>Teste de Sistema / End-to-End</b></caption>
     <tr>
       <th>Descrição</th>
       <td>testar o funcionamento do aplicativo</td>
@@ -309,7 +311,7 @@ Esse documento é um user_story ou dos requisitos do aplicativo IAV(IAVOZ) um ap
 </head>
 <body>
   <table>
-    <caption>Teste de Aceitação</caption>
+    <caption><b>Teste de Aceitação</b></caption>
     <tr>
       <th>Descrição</th>
       <td>Requisitos que o aplicativo deve cumprir com êxito</td>
@@ -358,7 +360,7 @@ Esse documento é um user_story ou dos requisitos do aplicativo IAV(IAVOZ) um ap
 </head>
 <body>
   <table>
-    <caption>Teste de usabilidade</caption>
+    <caption><b>Teste de usabilidade</b></caption>
     <tr>
       <th>Descrição</th>
       <td>Tempo de resposta do aplicativo</td>
@@ -407,7 +409,7 @@ Esse documento é um user_story ou dos requisitos do aplicativo IAV(IAVOZ) um ap
 </head>
 <body>
   <table>
-    <caption>Teste de compatibilidade</caption>
+    <caption><b>Teste de compatibilidade</b></caption>
     <tr>
       <th>Descrição</th>
       <td>Compatibilidade do aplicativo em sistemas operacionais windows e linux</td>
