@@ -460,11 +460,11 @@ A diferença entre teste de unidade e teste de integração está no nível de e
 
 # SELENIUM 
 
-Tempo para gerar áudio: 1.30 segundos
+- Tempo para gerar áudio: 1.30 segundos
 
-Tempo para gerar gráfico: 0.42 segundos
+- Tempo para gerar gráfico: 0.42 segundos
 
-Tempo de resposta da página: 1.50 segundos
+- Tempo de resposta da página: 1.50 segundos
 
 
 # Referências 
