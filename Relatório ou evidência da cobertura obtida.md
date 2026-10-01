@@ -6,9 +6,9 @@
 
 ### script de CI usando o GitHub Actions
 
-**1** Procure na parte esquerda da página SonarQube cloud click na opção administração e click em administração a opção metodos de análises  
+**1.** Procure na parte esquerda da página SonarQube cloud click na opção administração e click em administração a opção metodos de análises  
 
-**2** Em metodos de análises escolha a opção com ações do github 
+**2.** Em metodos de análises escolha a opção com ações do github 
 
 **3.** Desative a análise automática
    
