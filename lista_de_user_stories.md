@@ -469,7 +469,7 @@ A diferença entre teste de unidade e teste de integração está no nível de e
 
 # Referências 
 
-[Capítulo 8 do livro Engenharia de software moderna](https://engsoftmoderna.info/cap8.html) 
+*[Capítulo 8 do livro Engenharia de software moderna](https://engsoftmoderna.info/cap8.html)*
 
 
 
