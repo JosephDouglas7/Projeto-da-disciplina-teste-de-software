@@ -36,7 +36,7 @@ Teste de compatibilidade     | ✅
 
 ### Evidências e passos para reprodução de eventuais bugs encontrados 
 
-**Evidências**    
+**◾ Evidências**    
 
 
 **Teste de funcionalidade** 
@@ -169,10 +169,25 @@ Execução das funções do aplicativo para verificação se tudo está funciona
 
 **Teste de compatibilidade**
 
-Execução do aplicativo nos sistemas operacionais windows e linux. 
+Execução do aplicativo nos sistemas operacionais windows e linux.  
 
 
-### Apontamentos de melhorias de negócio, inconsistências ou ajustes nos fluxos do User Story
+**◾ passos para reprodução de eventuais bugs encontrados** 
+
+*bug de geração de áudio* 
+
+**Passo 1:**  Escreva um texto em português
+
+**Passo 2:**  Seleciona a opção de idioma para inglês
+
+**Passo 3:**  click em gerar áudio 
+
+
+
+
+### Apontamentos de melhorias de negócio, inconsistências ou ajustes nos fluxos do User Story 
+
+
 
 
 
