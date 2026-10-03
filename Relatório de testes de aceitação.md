@@ -185,7 +185,10 @@ Execução do aplicativo nos sistemas operacionais windows e linux.
 
 
 
-### Apontamentos de melhorias de negócio, inconsistências ou ajustes nos fluxos do User Story 
+### Apontamentos de melhorias de negócio, inconsistências ou ajustes nos fluxos do User Story  
+
+- Adição de um detector que detectar quando o usuário escreve um texto em português e seleciona o idioma inglês para geração de áudio 
+- Adição de um aviso falando que o usuário não pode gerar áudio de um texto em português com a opção de idioma inglês ativa 
 
 
 
