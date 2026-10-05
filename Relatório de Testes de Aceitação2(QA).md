@@ -27,6 +27,18 @@
 
 **Evidências** 
 
-**Teste de performace** 
+**Teste de performace**  
+
+- teste 1:
+  
+  Tempo para gerar áudio: 1.01 segundos
+
+  Tempo para gerar gráfico: 1.88 segundos
+
+- teste 2:
+  
+   Tempo para gerar áudio: 0.80 segundos
+
+   Tempo para gerar gráfico: 1.14 segundos
 
 
