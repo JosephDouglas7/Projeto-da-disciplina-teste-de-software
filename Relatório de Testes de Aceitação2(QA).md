@@ -9,6 +9,6 @@
 - Teste de integração
 
 
-### Resultados 
+### Testes executados
 
 
