@@ -20,4 +20,10 @@
 
 *Passou* - ✅ 
 
-*Falhou* - ❌ 
+*Falhou* - ❌  
+
+
+### Evidências e passos para reprodução de eventuais bugs encontrados 
+
+**Evidências** 
+
