@@ -11,4 +11,13 @@
 
 ### Testes executados
 
+| Testes            | Resultados | 
+|-------------------|------------| 
+|Teste de performace|    ✅      |  
+|Teste unitário     |    ✅      | 
+|Teste de integração|    ✅      | 
 
+
+*Passou* - ✅ 
+
+*Falhou* - ❌ 
