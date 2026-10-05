@@ -45,5 +45,15 @@
 **passos para reprodução de eventuais bugs encontrados** 
 
 
+▪ bug de geração de áudio
+
+**Passo 1:** Escreva um texto em português
+
+**Passo 2:** Seleciona a opção de idioma para inglês
+
+**Passo 3:** click em gerar áudio
+
+
+### Apontamentos de melhorias de negócio, inconsistências ou ajustes nos fluxos do User Story
 
 
