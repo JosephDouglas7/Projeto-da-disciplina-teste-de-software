@@ -42,3 +42,8 @@
    Tempo para gerar gráfico: 1.14 segundos
 
 
+**passos para reprodução de eventuais bugs encontrados** 
+
+
+
+
