@@ -125,7 +125,11 @@
 | Requisitos envolvidos | Título | Link |
 |---|---|---|
 | RNF04,RNF06 | Teste unitário     | [Requisitos envolvidos ](https://github.com/JosephDouglas7/Projeto-da-disciplina-teste-de-software/blob/main/lista_de_user_stories.md) |
-| RNF03,RNF04,RNF06 | Teste de integração| [Requisitos envolvidos]() |
+| RNF03,RNF04,RNF06 | Teste de integração| [Requisitos envolvidos](https://github.com/JosephDouglas7/Projeto-da-disciplina-teste-de-software/blob/main/lista_de_user_stories.md) |  
+
+## 3. Matriz de Casos de Teste de Aceitação da Iteração 
+
+
 
 
 
