@@ -57,7 +57,48 @@
 No teste unitário mostrou que o Ran 4 tests in 1.775s e está OK, isso que dizer que o teste unitário está passando rápido e que não está tendo erro nas linhas de codigo do aplicativo.   
 
 
-### Teste de integração   
+### Teste de integração    
+
+    import unittest
+    import os
+    from gtts import gTTS
+    from collections import Counter
+    import matplotlib.pyplot as plt
+
+    # Importa funções do seu código principal
+    #from seu_codigo import gerar_grafico_letras
+
+    class TestIntegracaoApp(unittest.TestCase):
+
+    def test_fluxo_completo(self):
+        texto = "Teste de integração do aplicativo."
+        idioma = "pt"
+        arquivo_audio = "saida.mp3"
+        arquivo_grafico = "grafico_teste.png"
+
+        # 1. Gerar áudio
+        tts = gTTS(text=texto, lang=idioma)
+        tts.save(arquivo_audio)
+        self.assertTrue(os.path.exists(arquivo_audio))
+
+        # 2. Gerar gráfico
+        letras = [c.lower() for c in texto if c.isalpha()]
+        contagem = Counter(letras)
+        plt.figure()
+        plt.bar(contagem.keys(), contagem.values())
+        plt.savefig(arquivo_grafico)
+        self.assertTrue(os.path.exists(arquivo_grafico))
+
+        # 3. Verificar integração (ambos arquivos criados)
+        self.assertTrue(os.path.exists(arquivo_audio) and os.path.exists(arquivo_grafico))
+
+        # Limpeza
+        os.remove(arquivo_audio)
+        os.remove(arquivo_grafico)
+
+        if __name__ == "__main__":
+        unittest.main()
+
 
 No teste de integração mostrou que o Ran 1 test in 1.259s e está OK, isso que dizer que o teste de integração  está passando rápido e que não está tendo erro de integração de funcionalidades.    
 
