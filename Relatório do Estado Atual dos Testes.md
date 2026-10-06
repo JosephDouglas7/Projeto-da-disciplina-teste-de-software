@@ -64,5 +64,6 @@ No teste de integração mostrou que o Ran 1 test in 1.259s e está OK, isso que
 
 ### Cobertura atual
 
-A cobertura atual mostrar que 
+A cobertura atual mostrar que em questão de quantidade de segurança, confiabilidade, manutenção estão zeradas e a qualidade deles estão na classificação A em questão de duplicações, problemas aceitos, segurança de pontos de acesso estão zerados indicando que não existe no codigo. 
+
 [![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=JosephDouglas7_Projeto-da-disciplina-teste-de-software&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=JosephDouglas7_Projeto-da-disciplina-teste-de-software)
