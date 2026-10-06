@@ -57,7 +57,10 @@
 No teste unitário mostrou que o Ran 4 tests in 1.775s e está OK, isso que dizer que o teste unitário está passando rápido e que não está tendo erro nas linhas de codigo do aplicativo.   
 
 
-### Teste de integração  
+### Teste de integração   
 
 No teste de integração mostrou que o Ran 1 test in 1.259s e está OK, isso que dizer que o teste de integração  está passando rápido e que não está tendo erro de integração de funcionalidades.    
+
+
+### Cobertura atual
 
