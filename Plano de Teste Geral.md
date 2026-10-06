@@ -22,14 +22,11 @@ Versão: 1.0
 
 - Teste de funcionalidade,Teste de performace,Teste de interface de usuário,Teste de Sistema / End-to-End,Teste de Aceitação,Teste de usabilidade,Teste de compatibilidade.
 
+### 3. Estratégia de Testes por Requisito Não Funcional (RNF)
 
+### 4. Tipos e Níveis de Teste
 
+### 5. Ferramentas Utilizadas
 
-# 3. Estratégia de Testes por Requisito Não Funcional (RNF)
-
-# 4. Tipos e Níveis de Teste
-
-# 5. Ferramentas Utilizadas
-
-# 6. Riscos e Contingências
+### 6. Riscos e Contingências
    
