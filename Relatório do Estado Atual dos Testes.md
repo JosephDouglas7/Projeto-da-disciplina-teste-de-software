@@ -64,3 +64,5 @@ No teste de integração mostrou que o Ran 1 test in 1.259s e está OK, isso que
 
 ### Cobertura atual
 
+A cobertura atual mostrar que 
+[![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=JosephDouglas7_Projeto-da-disciplina-teste-de-software&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=JosephDouglas7_Projeto-da-disciplina-teste-de-software)
