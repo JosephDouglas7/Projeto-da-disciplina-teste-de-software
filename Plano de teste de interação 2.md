@@ -120,14 +120,73 @@
         unittest.main() 
 
 
-## 2. User Stories (US) Abordadas na Iteração
+## 2. User Stories (Requisitos envolvidos) Abordadas na Iteração
 
 | Requisitos envolvidos | Título | Link |
 |---|---|---|
 | RNF04,RNF06 | Teste unitário     | [Requisitos envolvidos ](https://github.com/JosephDouglas7/Projeto-da-disciplina-teste-de-software/blob/main/lista_de_user_stories.md) |
 | RNF03,RNF04,RNF06 | Teste de integração| [Requisitos envolvidos](https://github.com/JosephDouglas7/Projeto-da-disciplina-teste-de-software/blob/main/lista_de_user_stories.md) |  
 
-## 3. Matriz de Casos de Teste de Aceitação da Iteração 
+## 3. Matriz de Casos de Teste de Aceitação da Iteração  
+
+> Os cenários abaixo operacionalizam os Critérios de Aceitação descritos na [Especificação de User Stories](https://github.com/JosephDouglas7/Projeto-da-disciplina-teste-de-software/blob/main/lista_de_user_stories.md).
+
+Requisitos envolvidos — Teste unitário
+Requisitos associados: RNF01,RNF02, RNF04
+Pré-condições: Baixar as bibliotecas necessárias  
+
+|Requisitos envolvidos | Cenário | Passos | Resultado Esperado | Tipo |
+|---|---|---|---|---|
+| RNF01 | rápido acesso ao aplicativo | 1. Acessar aplicativo  2.Digitar o texto   3. selecionar o idioma 4.gerar o áudio |geração de texto em áudio | Manual 
+| RNF02 | gerar gráfico de barras para checar as letras do texto que será gerado o áudio | 1. Acessar o aplicativo  2. Digitar o texto 3.selecionar o idioma 4.gerar o áudio 5.geração de gráfico de barras | Geração de gráfico de barras | Automático | 
+|RNF04| utilização do aplicativo deve ser rápida | 1. Acessar o aplicativo 2. Digitar o texto 3.selecionar o idioma 4.gerar o áudio| Verificar a rapidez do aplicativo| Manual 
+
+Requisitos envolvidos — Teste de integração
+Requisitos associados: RNF03,RNF04, RNF06
+Pré-condições: Baixar as bibliotecas necessárias, Ter muitas funcionalidades  
+
+|Requisitos envolvidos | Cenário | Passos | Resultado Esperado | Tipo |
+|---|---|---|---|---|
+| RNF03 | rápido acesso ao aplicativo | 1. Acessar aplicativo  2.Digitar o texto   3. selecionar o idioma 4.gerar o áudio |geração de texto em áudio | Manual 
+|RNF04| utilização do aplicativo deve ser rápida | 1. Acessar o aplicativo 2. Digitar o texto 3.selecionar o idioma 4.gerar o áudio| Verificar a rapidez do aplicativo| Manual 
+|RNF06| Alto desempenho do aplicativo | 1. Acessar o aplicativo 2. Digitar o texto 3.selecionar o idioma 4.gerar o áudio| Verificar o desempenho do aplicativo| Manual   
+
+
+## 4. Critérios de Entrada e Saída da Iteração 
+
+### 4.1 Critérios de Entrada
+
+[Requisitos envolvidos](https://github.com/JosephDouglas7/Projeto-da-disciplina-teste-de-software/blob/main/lista_de_user_stories.md) 
+
+
+### 4.2 Critérios de Saída (Iteração aceita pelo cliente) 
+
+- [ ] 100% dos CT de aceitação planejados executados.
+- [ ] Nenhum bug de prioridade Alta ou Crítica em aberto.
+- [ ] Homologação formal do cliente nos testes de aceitação.
+
+
+## 5. Cronograma de Execução na Iteração 
+
+|Atividade          |Responsável   |Data Início|Data Fim  |
+|-------------------|--------------|-----------|----------| 
+|Teste Unitário     |Joseph Douglas|12/09/2026 |12/09/2026| 
+|Teste de integração|Joseph Douglas|12/09/2026 |12/09/2026| 
+
+
+## 6. Riscos da Iteração 
+
+|Risco                                  |Impacto|Ação Mitigatória                                             | 
+|---------------------------------------|-------|-------------------------------------------------------------| 
+|Linha de uma classe com erro de escrita|Médio  |Correção da escrita da classe                                | 
+|Funcionalidade com erro de integração  |Alto   |Estudar o problema e correção da integração da funcionalidade| 
+
+## 7. Referências
+
+- [Plano de testes](https://github.com/JosephDouglas7/Projeto-da-disciplina-teste-de-software/blob/main/plano_de_testes.md)
+
+- [Teste de aceitação](https://github.com/JosephDouglas7/Projeto-da-disciplina-teste-de-software/blob/main/Relat%C3%B3rio%20de%20testes%20de%20aceita%C3%A7%C3%A3o(QA).md) 
+
 
 
 
