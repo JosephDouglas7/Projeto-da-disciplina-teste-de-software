@@ -5,9 +5,9 @@ name: Python application
 
 on:
   push:
-    branches: [ "IA_voz" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "IA_voz" ]
+    branches: [ "main" ]
 
 permissions:
   contents: read
