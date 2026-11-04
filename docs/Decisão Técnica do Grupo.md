@@ -1,0 +1,3 @@
+# Selenium Webdriver
+
+A escolha do Selenium WebDriver para os testes de sistema do projeto fundamenta-se em sua robustez como uma ferramenta de código aberto (open-source) voltada para a automação de navegadores (como Chrome, Firefox, Safari e Edge). A ferramenta simula com exatidão o comportamento de um usuário real, sendo altamente recomendada para testes funcionais, de regressão e cross-browser, além da automação de tarefas repetitivas (RPA). Sua seleção também é respaldada por vantagens competitivas essenciais, como o suporte a diversas linguagens de programação, ampla compatibilidade multi-navegador, uma comunidade ativa e forte sinergia com ambientes de integração contínua.  
