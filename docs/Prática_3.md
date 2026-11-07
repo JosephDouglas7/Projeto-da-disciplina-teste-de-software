@@ -135,12 +135,12 @@ Avaliação: Parcial. Os botões têm textos diretos ("Converter para Áudio", "
 
 |**Antes**                                                 | **Depois** | 
 |----------------------------------------------------------|------------| 
-|Armadilha de Teclado (Keyboard Trap)                      | 
-|Autoplay e Roubo Abrupto de Foco                          | 
-|Inacessibilidade e Falta de Alternativa Textual no Gráfico| 
-|Ausência de Rótulos (Labels) e Controles Rígidos          | 
-|Congelamento da Interface (UI Freeze)                     | 
-|Dispersão e Quebra de Foco (App Switching Chaos)          | 
-|Ausência de Controles de Áudio Embutidos                  | 
-|Falta de Barra de Rolagem (Scrollbar)                     | 
+|Armadilha de Teclado (Keyboard Trap)                      | Corrigido
+|Autoplay e Roubo Abrupto de Foco                          | Corrigido
+|Inacessibilidade e Falta de Alternativa Textual no Gráfico| Corrigido
+|Ausência de Rótulos (Labels) e Controles Rígidos          | Corrigido
+|Congelamento da Interface (UI Freeze)                     | Corrigido
+|Dispersão e Quebra de Foco (App Switching Chaos)          | Corrigido
+|Ausência de Controles de Áudio Embutidos                  | Corrigido
+|Falta de Barra de Rolagem (Scrollbar)                     | Corrigido
 
