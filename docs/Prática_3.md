@@ -144,3 +144,8 @@ Avaliação: Parcial. Os botões têm textos diretos ("Converter para Áudio", "
 |Ausência de Controles de Áudio Embutidos                  | Corrigido
 |Falta de Barra de Rolagem (Scrollbar)                     | Corrigido
 
+**Pull request** 
+
+Link: [melhorias](https://github.com/JosephDouglas7/Projeto-da-disciplina-teste-de-software/compare/main%40%7B1day%7D...main)
+
+
